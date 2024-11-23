@@ -50,7 +50,7 @@ const DOCTOR_DATA = {
     "زمالة الكلية الملكية للأطباء - بريطانيا",
     "ماجستير في الطب الباطني - جامعة القاهرة"
   ],
-  image: "/images/doctor-placeholder.jpg",
+  image: "/images/avatar.png",
   languages: ["العربية", "الإنجليزية"]
 }
 
