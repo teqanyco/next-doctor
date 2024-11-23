@@ -32,21 +32,21 @@ export default function MedicalPlatform() {
       specialty: "طب عام",
       rating: 4.9,
       reviews: 128,
-      image: "/api/placeholder/100/100"
+      image: "https://ui-avatars.com/api/?name=%D8%A7%D8%AD%D9%85%D8%AF+%D9%85%D8%AD%D9%85%D8%AF&background=0D8ABC&color=fff"
     },
     {
       name: "د. سارة خالد",
       specialty: "طب الأسنان",
       rating: 4.8,
       reviews: 96,
-      image: "/api/placeholder/100/100"
+      image: "https://ui-avatars.com/api/?name=%D8%B3%D8%A7%D8%B1%D8%A9+%D8%AE%D8%A7%D9%84%D8%AF&background=0D8ABC&color=fff"
     },
     {
       name: "د. محمد علي",
       specialty: "طب العيون",
       rating: 4.7,
       reviews: 84,
-      image: "/api/placeholder/100/100"
+      image: "https://ui-avatars.com/api/?name=%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D9%84%D9%8A&background=0D8ABC&color=fff"
     },
   ]
 
