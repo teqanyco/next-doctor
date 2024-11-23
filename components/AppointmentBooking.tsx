@@ -43,7 +43,7 @@ export default function AppointmentBooking() {
       name: 'د. أحمد محمد',
       specialty: 'طب عام',
       rating: 4.9,
-      location: 'الرياض - العليا',
+      location: 'عمان - خلدا',
       price: 200,
       availability: '15 موعد متاح',
       image: 'https://avatar.iran.liara.run/public/32'
@@ -53,7 +53,7 @@ export default function AppointmentBooking() {
       name: 'د. سارة عبدالله',
       specialty: 'طب عام',
       rating: 4.8,
-      location: 'الرياض - النخيل',
+      location: 'عمان - العبدلي',
       price: 180,
       availability: '8 مواعيد متاحة',
       image: 'https://avatar.iran.liara.run/public/33'

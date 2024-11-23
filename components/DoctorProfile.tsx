@@ -35,7 +35,7 @@ const DOCTOR_DATA = {
   totalReviews: 128,
   yearsExperience: 15,
   consultationPrice: 200,
-  location: "الرياض - العليا",
+  location: "عمان - خلدا",
   workingHours: "9:00 ص - 9:00 م",
   about: `طبيب استشاري متخصص في الطب العام مع خبرة تمتد لأكثر من 15 عاماً في مجال الرعاية الصحية الأولية. 
     حاصل على زمالة الكلية الملكية للأطباء في بريطانيا ولديه اهتمام خاص بعلاج الأمراض المزمنة ورعاية كبار السن.`,
@@ -114,8 +114,8 @@ export default function DoctorProfile({ doctorId }: { doctorId: string }) {
               <Image
                 src={DOCTOR_DATA.image}
                 alt={DOCTOR_DATA.name}
-                width={200}
-                height={200}
+                width={100}
+                height={100}
                 className="rounded-xl w-full object-cover"
               />
             </div>
@@ -159,7 +159,7 @@ export default function DoctorProfile({ doctorId }: { doctorId: string }) {
                 </button>
                 <div className="text-gray-700">
                   <span className="font-bold text-xl">{DOCTOR_DATA.consultationPrice}</span>
-                  <span className="text-sm mr-1">ريال</span>
+                  <span className="text-sm mr-1">دينار</span>
                 </div>
               </div>
             </div>

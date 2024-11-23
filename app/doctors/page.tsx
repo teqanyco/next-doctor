@@ -13,7 +13,7 @@ const DOCTORS_DATA = [
     specialty: "استشاري طب عام",
     rating: 4.9,
     reviewsCount: 128,
-    location: "الرياض - العليا",
+    location: "عمان - خلدا",
     price: 200,
     availability: "15 موعد متاح",
     image: "/images/avatar.png",
@@ -25,7 +25,7 @@ const DOCTORS_DATA = [
     specialty: "طب الأسنان",
     rating: 4.8,
     reviewsCount: 96,
-    location: "الرياض - النخيل",
+    location: "عمان - العبدلي",
     price: 180,
     availability: "8 مواعيد متاحة",
     image: "/images/avatar.png",
@@ -37,7 +37,7 @@ const DOCTORS_DATA = [
     specialty: "طب العيون",
     rating: 4.7,
     reviewsCount: 114,
-    location: "الرياض - العزيزية",
+    location: "عمان - طبربور",
     price: 220,
     availability: "10 مواعيد متاحة",
     image: "/images/avatar.png",
@@ -130,8 +130,8 @@ export default function DoctorsPage() {
                   <Image
                     src={doctor.image}
                     alt={doctor.name}
-                    width={200}
-                    height={200}
+                    width={100}
+                    height={100}
                     className="rounded-xl w-full aspect-square object-cover"
                   />
                 </div>
@@ -154,7 +154,7 @@ export default function DoctorsPage() {
                       </div>
                     </div>
                     <div className="mt-4 md:mt-0 text-left">
-                      <div className="text-2xl font-bold text-blue-600">{doctor.price} ريال</div>
+                      <div className="text-2xl font-bold text-blue-600">{doctor.price} دينار</div>
                       <div className="text-sm text-gray-500">سعر الكشف</div>
                     </div>
                   </div>
