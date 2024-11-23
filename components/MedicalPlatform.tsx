@@ -32,21 +32,21 @@ export default function MedicalPlatform() {
       specialty: "طب عام",
       rating: 4.9,
       reviews: 128,
-      image: "https://ui-avatars.com/api/?name=%D8%A7%D8%AD%D9%85%D8%AF+%D9%85%D8%AD%D9%85%D8%AF&background=0D8ABC&color=fff"
+      image: "https://avatar.iran.liara.run/public/35"
     },
     {
       name: "د. سارة خالد",
       specialty: "طب الأسنان",
       rating: 4.8,
       reviews: 96,
-      image: "https://ui-avatars.com/api/?name=%D8%B3%D8%A7%D8%B1%D8%A9+%D8%AE%D8%A7%D9%84%D8%AF&background=0D8ABC&color=fff"
+      image: "https://avatar.iran.liara.run/public/33"
     },
     {
       name: "د. محمد علي",
       specialty: "طب العيون",
       rating: 4.7,
       reviews: 84,
-      image: "https://ui-avatars.com/api/?name=%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D9%84%D9%8A&background=0D8ABC&color=fff"
+      image: "https://avatar.iran.liara.run/public/37"
     },
   ]
 
@@ -55,10 +55,11 @@ export default function MedicalPlatform() {
 
       <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
-          <h1 className="text-4xl font-extrabold leading-tight tracking-tighter md:text-5xl">
-            رعاية صحية موثوقة <br className="hidden sm:inline" />
-            في متناول يديك
-          </h1>
+        <h1 className="font-extrabold leading-tight tracking-wide text-4xl md:text-5xl space-y-2">
+  رعاية صحية موثوقة 
+  <br className="hidden sm:inline" />
+  <span className="block mt-2">في متناول يديك</span>
+</h1>
           <p className="max-w-[700px] text-lg text-gray-500">
             احصل على استشارات طبية فورية، احجز مواعيدك، وتواصل مع أفضل الأطباء
             في مكان واحد.

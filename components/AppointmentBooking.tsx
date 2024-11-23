@@ -46,7 +46,7 @@ export default function AppointmentBooking() {
       location: 'الرياض - العليا',
       price: 200,
       availability: '15 موعد متاح',
-      image: 'https://ui-avatars.com/api/?name=%D8%A7%D8%AD%D9%85%D8%AF+%D9%85%D8%AD%D9%85%D8%AF&background=0D8ABC&color=fff'
+      image: 'https://avatar.iran.liara.run/public/32'
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ export default function AppointmentBooking() {
       location: 'الرياض - النخيل',
       price: 180,
       availability: '8 مواعيد متاحة',
-      image: 'https://ui-avatars.com/api/?name=%D8%A7%D8%AD%D9%85%D8%AF+%D9%85%D8%AD%D9%85%D8%AF&background=0D8ABC&color=fff'
+      image: 'https://avatar.iran.liara.run/public/33'
     }
   ]
 
