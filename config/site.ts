@@ -1,18 +1,28 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
-  description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+  name: "طبيبي",
+  description: "منصة للتواصل مع الأطباء وحجز المواعيد",
   mainNav: [
     {
-      title: "Home",
+      title: "الرئيسية",
       href: "/",
+    },
+    {
+      title: "الأطباء",
+      href: "/doctors",
+    },
+    {
+      title: "التخصصات",
+      href: "/specialties",
+    },
+    {
+      title: "حجز موعد",
+      href: "/appointment",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/your-handle",
+    github: "https://github.com/your-username/medical-platform",
   },
 }
