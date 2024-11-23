@@ -1,3 +1,4 @@
+// medical-platform/components/AppointmentBooking.tsx
 "use client"
 
 import { useState } from 'react'

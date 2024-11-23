@@ -1,3 +1,4 @@
+// medical-platform/components/MedicalPlatform.tsx
 "use client"
 
 import Link from "next/link"
@@ -50,8 +51,8 @@ export default function MedicalPlatform() {
   ]
 
   return (
-    <div className="flex flex-col min-h-screen" dir="rtl">
-      {/* Hero Section */}
+     <div className="flex flex-col min-h-screen">
+
       <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-4xl font-extrabold leading-tight tracking-tighter md:text-5xl">
